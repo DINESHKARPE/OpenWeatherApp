@@ -80,6 +80,12 @@ class MainActivity : StandardActivity(), MainActivityDelegate, OnAddressFetchCom
         }
 
 
+        textButton.setOnClickListener {
+            val bottomSheetFragment = BottomSheetFragment(applicationContext,repositoryList)
+            bottomSheetFragment.show(supportFragmentManager, bottomSheetFragment.tag)
+        }
+
+
     }
 
 
