@@ -114,4 +114,6 @@ dependencies {
 
     // Facebook shimmer
     implementation "com.facebook.shimmer:shimmer:$rootProject.shimmer"
+
+    implementation "com.google.android.gms:play-services-location:$rootProject.playserviceslocation"
 }
